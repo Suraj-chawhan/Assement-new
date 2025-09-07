@@ -19,7 +19,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET || "changeme";
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/resume_builder";
+const MONGODB_URI = process.env.DB
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
